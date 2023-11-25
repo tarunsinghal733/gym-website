@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 2rem;
+}
+
+.nav-menu >li:hover{
+ color: var(--orange);
+    cursor: pointer;
+    
+}
