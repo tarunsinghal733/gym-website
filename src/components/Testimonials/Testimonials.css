@@ -1,0 +1,79 @@
+.testimonials {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 2rem;
+}
+
+.test-l {
+    display: flex;
+    flex: 1 1;
+    gap: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.test-l:nth-child(1) {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.test-head {
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+.test-review {
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: white !important;
+}
+
+.test-r {
+    flex: 1;
+    position: relative;
+}
+
+.test-r>img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.outline-img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.filled-img {
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--orange);
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
+}
+
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
