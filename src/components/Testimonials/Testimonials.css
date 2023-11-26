@@ -1,7 +1,8 @@
 .testimonials {
     display: flex;
     gap: 1rem;
-    padding: 2rem 2rem;
+    padding: 0 2rem;
+    padding-bottom: 6rem;
 }
 
 .test-l {
@@ -73,7 +74,7 @@
     bottom: 1rem;
 }
 
-.arrows>img{
+.arrows>img {
     width: 1.5rem;
     cursor: pointer;
 }

@@ -30,11 +30,11 @@ const Testimonials = () => {
                 <div className='arrows'>
                     <img onClick={() => {
                         selected === 0 ? setselected(tLength - 1)
-                        : setselected((prev) => prev - 1);
+                            : setselected((prev) => prev - 1);
                     }} src={leftarrow} alt="" />
                     <img onClick={() => {
                         selected === tLength - 1 ? setselected(0)
-                        : setselected((prev) => prev + 1);
+                            : setselected((prev) => prev + 1);
                     }} src={rightArrow} alt="" />
                 </div>
             </div>
