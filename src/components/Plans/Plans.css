@@ -1,0 +1,11 @@
+.plans-header {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
